@@ -4030,7 +4030,7 @@
 	(footprint "LOGO"
 		(layer "B.Cu")
 		(uuid "31e9b6da-b768-4449-a6c4-04916391a19c")
-		(at 173.595094 65.612113 180)
+		(at 174.785094 133.382113 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -6793,7 +6793,7 @@
 		(uuid "6e66cbcb-e3a3-4cb1-b333-55c0fd2ca579")
 	)
 	(gr_text "Macropad v0.1"
-		(at 185.14 76.2125 0)
+		(at 168.68 82.1925 0)
 		(layer "B.SilkS")
 		(uuid "e05f9cac-8878-4b96-a132-6d56b801f46d")
 		(effects
@@ -6804,6 +6804,18 @@
 			)
 			(justify left bottom mirror)
 		)
+	)
+	(barcode
+		(at 158.067726 69.260932 0)
+		(layer "B.SilkS")
+		(size 13.735702 13.735702)
+		(text "https://github.com/poggersv2/macropad")
+		(text_height 0.5)
+		(type qr)
+		(ecc_level L)
+		(hide no)
+		(knockout no)
+		(uuid "e90ecbdb-4eaa-4912-bb01-d90fd36f6c4e")
 	)
 	(segment
 		(start 172.085 126.0475)
