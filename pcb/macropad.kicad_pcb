@@ -6818,6 +6818,82 @@
 		(knockout no)
 		(uuid "e90ecbdb-4eaa-4912-bb01-d90fd36f6c4e")
 	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Cu")
+		(uuid "87628c3f-cb1a-4a59-a4e5-edfebecaf2be")
+		(pts
+			(xy 125.88875 135.73125) (xy 187.80125 135.73125)
+		)
+		(height 23.8125)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "61.9125"
+			(at 156.845 157.74375 0)
+			(layer "F.Cu")
+			(uuid "87628c3f-cb1a-4a59-a4e5-edfebecaf2be")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Cu")
+		(uuid "cc714350-2088-427f-aec0-385f49026631")
+		(pts
+			(xy 173.51375 140.49375) (xy 173.51375 57.15)
+		)
+		(height 33.3375)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "83.3438"
+			(at 205.05125 98.821875 90)
+			(layer "F.Cu")
+			(uuid "cc714350-2088-427f-aec0-385f49026631")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
 	(segment
 		(start 172.085 126.0475)
 		(end 172.085 87.9475)
