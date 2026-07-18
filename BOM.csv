@@ -1,0 +1,4 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"D1,D2,D3,D4,D5,D6,D7,D8,D9","9","D_Small","","","","Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal",""
+"MX1","1","RotaryEncoder_Switch_MP","","","","PCM_marbastlib-various:ROT_Alps_EC11E-Switch",""
+"MX2,MX3,MX4,MX5,MX6,MX7,MX8,MX9,MX10","9","MX_SW_solder","","","","PCM_marbastlib-mx:SW_MX_1u",""
