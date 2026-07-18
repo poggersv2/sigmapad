@@ -1,48 +1,60 @@
 # Sigmapad
 
-A macropad for frequently used shortcuts, built as part of Hack Club's Stardance and Hackpad programs.
+Sigmapad is a 9-key macropad in a 3x3 grid with an EC11 rotary encoder. It runs on QMK firmware. 
+
+It was built as part of Hack Club's Stardance and Hackpad programs to handle frequently used shortcuts.
 
 ## Features
+- 9 Keys in a standard 3x3 grid.
+- EC11 Rotary encoder (with built-in push switch) for whatever you want.
+- USB-C connectivity.
 
-* **Minimalist design:** Clean, compact, and keeps your desk free of clutter.
-* **Standard grid:** 9 keys in a 3x3 layout.
-* **Rotary encoder:** EC11 encoder with a built-in push switch for custom bindings.
-* **Connectivity:** USB-C.
+## CAD Model
+The case consists of three printed parts: the top frame, the switch plate, and the bottom enclosure. 
+Everything fits together using four M3x16mm screws and M3 heat-set inserts.
 
-## Hardware Design
+<img src="https://github.com/poggersv2/sigmapad/blob/main/assets/readme/case-front.png" alt="Case Front" height="300"/>
+<img src="https://github.com/poggersv2/sigmapad/blob/main/assets/readme/case-exploded.png" alt="Case Exploded" height="300"/>
 
-![Case Screenshot](https://github.com/poggersv2/sigmapad/blob/main/assets/readme/case-front.png)
+## PCB
+Here's the schematic and board layout. 
 
-### Schematic
-![Schematic Screenshot](https://github.com/poggersv2/sigmapad/blob/main/assets/readme/schematic.png)
+<img src="https://github.com/poggersv2/sigmapad/blob/main/assets/readme/schematic.png" alt="Schematic" height="300"/>
+<img src="https://github.com/poggersv2/sigmapad/blob/main/assets/readme/pcb-front.png" alt="PCB Front" height="300"/>
+<img src="https://github.com/poggersv2/sigmapad/blob/main/assets/readme/pcb-back.png" alt="PCB Back" height="300"/>
+<img src="https://github.com/poggersv2/sigmapad/blob/main/assets/readme/pcb.png" alt="PCB" height="300"/>
 
-### PCB Layout
-![PCB Front Screenshot](https://github.com/poggersv2/sigmapad/blob/main/assets/readme/pcb-front.png)
-![PCB Back Screenshot](https://github.com/poggersv2/sigmapad/blob/main/assets/readme/pcb-back.png)
-![PCB Screenshot](https://github.com/poggersv2/sigmapad/blob/main/assets/readme/pcb.png)
+## Firmware Overview
+## Firmware Overview
+This macropad uses [QMK](https://qmk.fm/) firmware. 
+The rotary encoder changes volume and mutes on press. 
+The default keys are:
 
-### Case & Assembly
-The case consists of three main parts: the top frame, the switch plate, and the bottom enclosure.
+```text
+┌───┬───┬───┐
+│ Q │ W │ E │
+├───┼───┼───┤
+│ A │ S │ D │
+├───┼───┼───┤
+│ Z │ X │ C │
+└───┴───┴───┘
+```
 
-![Case Assembly Screenshot](https://github.com/poggersv2/sigmapad/blob/main/assets/readme/case-exploded.png)
+To flash the board, compile your `.uf2` file, hold the BOOT button on the RP2040 while plugging it in, and drag the file onto the mounted drive. 
 
-## Bill of Materials (BOM)
+## BOM
+Here is everything you need to build this macropad:
 
-| Qty | Part Description |
-| :---: | :--- |
-| 1 | Seeed Studio XIAO RP2040 |
-| 9 | Through-hole 1N4148 Diodes |
-| 9 | Cherry MX-style Switches |
-| 1 | EC11 Rotary Encoder |
-| 9 | White Blank DSA Keycaps |
-| 4 | M3x16mm Screws |
-| 4 | M3x5mmx4mm Heat-set Inserts |
+- 1x Seeed Studio XIAO RP2040
+- 9x Cherry MX-style Switches
+- 9x White Blank DSA Keycaps
+- 9x Through-hole 1N4148 Diodes
+- 1x EC11 Rotary Encoder
+- 4x M3x16mm Screws
+- 4x M3x5x4mm Heat-set Inserts
+- 1x Case (Top, Plate, Bottom)
 
-## Firmware
-
-This macropad runs on QMK. 
-
-1. **Compile** your QMK firmware to generate a `.uf2` file for the XIAO RP2040. *(If you haven’t set up your QMK build environment yet, refer to the official QMK documentation).*
-2. **Enter bootloader mode** by holding the `BOOT` button on the RP2040 while plugging it into your computer via USB.
-3. **Flash the board** by dragging and dropping the compiled `.uf2` file onto the mounted drive, or by using QMK Toolbox.
-4. **Reboot and test** the switches and ensure your encoder knob registers correctly.
+## Extra stuff
+**Tools I used:**
+* **CAD:** Fusion
+* **PCB and Schematic:** KiCad
