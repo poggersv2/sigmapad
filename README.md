@@ -24,8 +24,7 @@ Here's the schematic and board layout.
 <img src="https://github.com/poggersv2/sigmapad/blob/main/assets/readme/pcb-back.png" alt="PCB Back" height="300"/>
 <img src="https://github.com/poggersv2/sigmapad/blob/main/assets/readme/pcb.png" alt="PCB" height="300"/>
 
-## Firmware Overview
-## Firmware Overview
+## Firmware 
 This macropad uses [QMK](https://qmk.fm/) firmware. 
 The rotary encoder changes volume and mutes on press. 
 The default keys are:
