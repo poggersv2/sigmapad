@@ -1,4 +1,4 @@
-<img width="523" height="624" alt="Screenshot 2026-07-18 at 23 04 25" src="https://github.com/user-attachments/assets/48fe4d7a-b290-4943-a453-1eecc3a46c63" /># [Sigmapad]
+[Sigmapad]
 
 A macropad for shortcuts that I use alot. Made as part of Hackclub's Stardance / Hackpad programmes
 
