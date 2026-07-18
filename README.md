@@ -2,7 +2,7 @@
 
 Sigmapad is a 9-key macropad in a 3x3 grid with an EC11 rotary encoder. It runs on QMK firmware. 
 
-It was built as part of Hack Club's Stardance and Hackpad programs to handle frequently used shortcuts.
+It was built as part of Hack Club's Stardance and Hackpad programs to handle frequently used shortcuts and keys.
 
 ## Features
 - 9 Keys in a standard 3x3 grid.
